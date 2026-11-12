@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Escolinha do Flamengo</title>
+</head>
+<body>
+
+    <a href="index.html">Voltar para a página inicial</a>
+
+    <h1>Contato - Escolinha do Flamengo</h1>
+
+    <main id="conteudo">
+
+        <h2>Entre em contato conosco</h2>
+
+        <p>Confira nossos contatos e, se tiver alguma dúvida, envie uma mensagem pelo formulário abaixo.</p>
+
+        <h2>Nosso endereço</h2>
+
+        <address>
+            Rua João Colin, 100<br>
+            Bairro Centro<br>
+            Joinville - SC<br>
+            CEP: 89201-000
+        </address>
+
+        <h2>E-mail e telefone</h2>
+
+        <p>
+            E-mail:
+            <a href="mailto:contato@escolinhaflamengo.com"> contato@escolinhaflamengo.com </a>
+        </p>
+
+        <p>
+            Telefone:
+            <a href="tel:+554730001234"> (47) 3000-1234 </a>
+        </p>
+
+        <h2>Horários de atendimento</h2>
+
+        <ul>
+            <li>Segunda-feira: das 8h às 18h.</li>
+            <li>Terça-feira: das 8h às 18h.</li>
+            <li>Quarta-feira: das 8h às 18h.</li>
+            <li>Quinta-feira: das 8h às 18h.</li>
+            <li>Sexta-feira: das 8h às 18h.</li>
+            <li>Sábado: das 8h às 12h.</li>
+            <li>Domingo: não há atendimento.</li>
+        </ul>
+
+        <h2>Envie uma mensagem</h2>
+
+        <form action="#" method="post">
+
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome"
+            autocomplete="name" required>
+            <br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"
+            autocomplete="email" required>
+            <br><br>
+
+            <label for="assunto">Assunto:</label><br>
+
+            <select id="assunto" name="assunto" required>
+                <option value="">Selecione um assunto</option>
+                <option value="matricula">Matrícula</option>
+                <option value="treinos">Horários dos treinos</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="outros">Outros assuntos</option>
+            </select>
+
+            <br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"
+            rows="5" maxlength="300" required></textarea>
+
+            <br><br>
+
+            <button type="submit">Enviar mensagem</button>
+            <button type="reset">Limpar formulário</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
